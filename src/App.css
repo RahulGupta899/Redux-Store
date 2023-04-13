@@ -50,6 +50,7 @@ img {
     text-decoration: none;
     color: black;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .cartCard {
@@ -60,4 +61,11 @@ img {
     margin-bottom: 20px;
     padding: 14px;
     border-radius: 5px;
+}
+
+.logo{
+    cursor: pointer;
+    text-decoration: none;
+}:hover{
+    color: black;
 }
