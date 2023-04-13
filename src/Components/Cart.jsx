@@ -19,7 +19,7 @@ const Cart = () => {
             <div className='cartCard' key={idx}>
               <img src={product.image} alt=""/>
               <h4>{product.title}</h4>
-              <h5>{product.price}</h5>
+              <h5>{product.price} $</h5>
               <button className='btn' onClick={()=>handleClick(product,idx)}>Remove</button>
             </div>
           )

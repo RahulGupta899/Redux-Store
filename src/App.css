@@ -69,3 +69,6 @@ img {
 }:hover{
     color: black;
 }
+.cartWrapper{
+    margin-top: 20px;
+}

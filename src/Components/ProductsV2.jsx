@@ -48,7 +48,7 @@ const ProductsV2 = ()=>{
                 <div className='card' key={product.id}>
                 <img src={product.image} alt=""/>
                 <h4>{product.title}</h4>
-                <h5>{product.price}</h5>
+                <h5>{product.price} $</h5>
                 <button className='btn' onClick={()=>handleClick(product)}>Add to Cart</button>
                 </div>
             )
